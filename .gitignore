@@ -1,4 +1,8 @@
-/.terraform
-/.terraform.lock.hcl
-/terraform.tfstate
-/terraform.tfstate.backup
+# Directorios y archivos de Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfplan
+*.tfplan.*
+.terraform.lock.hcl
